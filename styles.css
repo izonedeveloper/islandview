@@ -24,7 +24,7 @@ hr {
   border: 0;
   height: 2px;
   background: #1e90ff;
-  background-image: linear-gradient(to right, #1e90ff, #00ced1, #1e90ff);
+  background-image: linear-gradient(to right, #FFF59D, #ffc815, #FFF59D);
 }
 
 
@@ -40,6 +40,10 @@ hr {
 .bg-blue {
   background-color: #a8c6e2;
 }
+.bg-silver {
+  background-color: #282826;
+  color: gold;
+}
 .bg-white-opaque {
   background-color: rgba(255, 255, 255, 0.8);
 }
@@ -51,7 +55,7 @@ hr {
   background-size: cover;
 }
 .main-header-text {
-  color: white;
+  color: gold;
   position: relative;
   z-index: 2;
   margin: 0 auto;
@@ -68,13 +72,42 @@ hr {
 
 .form-control{
   border: none;
-  border-bottom: 2px solid #66AFE9;
+  border-bottom: 2px solid #FFF59D!important;
 }
 .form-field{
-  border: 1px solid #1e90ff;
+  border: 2px solid #FFF59D;
   border-radius: 20px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   margin-top: 100px;
   margin-bottom: 100px;
   background-color: rgba(255, 255, 255, 0.8);
+}
+.btn-primary {
+  background-color: #FFEE58;
+  border: none;
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: #ffc815;
+  color: black;
+}
+
+
+
+
+/*
+
+  MEDIA QUERIES
+
+*/
+
+@media only screen and (max-width : 767px) {
+
+  .main-header-text {
+    margin-top: 30vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px
+  }
+
 }
