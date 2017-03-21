@@ -15,6 +15,10 @@ video {
   padding: 0;
   font-family: 'Josefin Sans', sans-serif;
 }
+h5 {
+  padding: 20px;
+  margin: 0;
+}
 html,
 body {
   height: 100%;
@@ -25,6 +29,12 @@ hr {
   height: 2px;
   background: #1e90ff;
   background-image: linear-gradient(to right, #FFF59D, #ffc815, #FFF59D);
+}
+footer {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: #282826;
 }
 
 
@@ -46,6 +56,16 @@ hr {
 }
 .bg-white-opaque {
   background-color: rgba(255, 255, 255, 0.8);
+}
+.no-margin {
+  margin: 0!important;
+  padding: 0!important;
+}
+.footerlink {
+  color: white;
+}
+.footerlink:hover {
+  color: white;
 }
 .main-header {
   background-image: url("venturapier.jpg");
