@@ -32,7 +32,7 @@ hr {
   background-image: url("dtventura.jpg");
 }
 .bg-statue {
-  background-image: url("venturastatue.jpg");
+  background-image: url("splashmain.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,7 +81,7 @@ hr {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   margin-top: 100px;
   margin-bottom: 100px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 .btn-primary {
   background-color: #FFEE58;
