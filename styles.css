@@ -90,8 +90,8 @@ hr {
 }
 
 .btn-primary:hover {
-  background-color: #ffc815;
-  color: black;
+  background-color: #ffc815!important;
+  color: black!important;
 }
 
 
