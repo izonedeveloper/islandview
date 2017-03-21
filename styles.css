@@ -59,7 +59,8 @@ hr {
   position: relative;
   z-index: 2;
   margin: 0 auto;
-  margin-top: 30vh;
+  margin-top: 20vh;
+  margin-left: 80px;
   max-width: 1000px;
   text-align: left;
 }
